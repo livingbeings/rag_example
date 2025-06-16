@@ -1,0 +1,6 @@
+llama-index
+llama-index-embeddings-huggingface
+peft
+auto-gptq==0.6.0
+optimum
+bitsandbytes
