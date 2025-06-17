@@ -20,7 +20,7 @@ class RAGInstance:
         model_name = "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ"
         self.top_k = 3
         self.query_engine = self.build_query_engine(documents_path=documents_path)
-        # self.model = self.load_model(model_name=model_name)
+        self.model = self.load_model(model_name=model_name)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
         self.instruction_string = ""
 

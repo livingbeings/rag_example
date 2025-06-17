@@ -1,4 +1,4 @@
-# [Source](https://www.youtube.com/watch?v=Ylz779Op9Pw)
+# Retreival-Augmented Generation
 ## Background of LLM
 LLM compressed world knowledge
 ## LLM limitation :
@@ -19,7 +19,8 @@ In theory this is better than fine tuning LLM because of time needed
 ### Retriever
 1. Text Embeddings\
 mapping text information into vector where similarity is discribed by distance between its node
-2. Knowledge base
+2. Text Embedding-based Search
+### Knowledge base
 - Load Docs
 - Chunk Docs : important because LLM only have fixed `context window`
 - Embed Chunks : take each of those chunks and translate it to vector inside embedding map
